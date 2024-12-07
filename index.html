@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中文字体展示</title>
+    <style>
+        @font-face {
+            font-family: 'CangErHuaXin';
+            src: url('/fonts/仓耳华新体.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        .demo {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #eee;
+            border-radius: 8px;
+        }
+
+        .font-demo {
+            font-family: 'CangErHuaXin', sans-serif;
+            font-size: 24px;
+            line-height: 1.5;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .sizes {
+            margin-top: 30px;
+        }
+
+        .size-demo {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>仓耳华新体展示</h1>
+    
+    <div class="demo">
+        <div class="font-demo">
+            <p>春风得意马蹄疾，一日看尽长安花。</p>
+            <p>床前明月光，疑是地上霜。</p>
+            <p>举头望明月，低头思故乡。</p>
+        </div>
+    </div>
+
+    <div class="sizes">
+        <div class="size-demo" style="font-family: 'CangErHuaXin'; font-size: 16px;">16px - 汉字展示 ABC 123</div>
+        <div class="size-demo" style="font-family: 'CangErHuaXin'; font-size: 24px;">24px - 汉字展示 ABC 123</div>
+        <div class="size-demo" style="font-family: 'CangErHuaXin'; font-size: 32px;">32px - 汉字展示 ABC 123</div>
+        <div class="size-demo" style="font-family: 'CangErHuaXin'; font-size: 48px;">48px - 汉字展示 ABC 123</div>
+    </div>
+</body>
+</html>
